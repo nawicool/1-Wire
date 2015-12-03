@@ -7,3 +7,4 @@ Sensor is connected  with arduino pin2  & allows the communication over usart.DS
 
 
 2. The second programm DS18B20Multiple.c allows the communication with multiple sensors. (Also uses pin2)
+You can find multiple devices on the bus. You just read the adresses. 0 is dominant. If you find a device that has a dominant bit then the other device with non dominant bit  doesn't answer any more & let the device with dominant bit to answer.
